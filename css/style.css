@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section{
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-one{
+    width: 100%;
+    height: 110%;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/paper.png);
+
+}
+.card-container{
+    background: rgb(216, 100, 33, 6);
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+    position: top;
+    
+}
+input{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 05px;
+    text-align: center;
+    border-radius: 14px;
+    background-color: rgb(214, 196, 172);
+    color: brown;
+}
+form{
+    display: grid;
+        
+}
+.background-products{
+    width: 100%;
+    height: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer{
+    width:auto;
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-image: url(../assets/footer.png);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
