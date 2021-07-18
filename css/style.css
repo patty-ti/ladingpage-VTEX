@@ -8,23 +8,24 @@ html{
 }
 
 .section-container{
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .background-section{
-    height: 100%;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: auto;
 }
 
+.background-section img, .background-products img{
+    width:100%;
+    height:auto;
+}
 .section-one{
-    width: 100%;
-    height: 110%;
+    width: 100vw;
+    height: auto;
     background-color: antiquewhite;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,42 +36,50 @@ html{
     background: rgb(216, 100, 33, 6);
     border-radius: 25px;
     padding: 25px;
-    max-width: 450px;
+    max-width: 700px;
     position: top;
-    
+
 }
 input{
-    width: 100%;
-    height: 20px;
-    margin-bottom: 05px;
+    min-width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
     text-align: center;
+    border:solid 0.3px #333;
     border-radius: 14px;
     background-color: rgb(214, 196, 172);
     color: brown;
 }
+
 form{
     display: grid;
-        
 }
+
 .background-products{
-    width: 100%;
-    height: 50%;
+    width: 100vw;
+    height: auto;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .footer{
-    width:auto;
-    height: 100%;
+    width:100vw;
+    height: auto;
     padding: 25px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-position:center center;
+    background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: contain;
     background-image: url(../assets/footer.png);
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
+}
 
-    
+.footer img{
+    height:30px;
+    width:30px;
 }
